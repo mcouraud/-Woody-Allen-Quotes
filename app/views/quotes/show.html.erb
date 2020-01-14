@@ -1,0 +1,11 @@
+<div class="card">
+  <h1> <%= @author.first_name %> <%= @author.last_name %></h1>
+  <div class="flex center">
+     <%= image_tag("quote_1.png", style: "height: 50px; margin-right: 10px;") %>
+    <h2><%= @quote.sentence %> </h2>
+    <%= image_tag("quote_2.png", style: "height: 50px; margin-left: 10px;") %>
+  </div>
+  <div class="mt-40">
+    <%= link_to "Be enlightened again", author_quote_path(@author.id, @quote.id), :method => :get , class: "btn" %>
+  </div>
+</div>

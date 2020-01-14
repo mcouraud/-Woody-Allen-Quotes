@@ -1,0 +1,44 @@
+AllCops:
+  Exclude:
+    - "bin/**/*"
+    - "db/**/*"
+    - "config/**/*"
+    - "node_modules/**/*"
+    - "script/**/*"
+    - "support/**/*"
+    - "tmp/**/*"
+    - "test/**/*"
+    - "spec/**/*"
+
+ConditionalAssignment:
+  Enabled: false
+StringLiterals:
+  Enabled: false
+RedundantReturn:
+  Enabled: false
+Documentation:
+  Enabled: false
+WordArray:
+  Enabled: false
+AbcSize:
+  Enabled: false
+MutableConstant:
+  Enabled: false
+SignalException:
+  Enabled: false
+CyclomaticComplexity:
+  Enabled: false
+MissingRespondToMissing:
+  Enabled: false
+MethodMissingSuper:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+LineLength:
+  Max: 200
+MethodLength:
+  Max: 15
+Style/EmptyMethod:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
